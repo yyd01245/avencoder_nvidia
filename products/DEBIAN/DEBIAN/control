@@ -1,0 +1,11 @@
+
+package: avencode
+Version: 1.0.01.1
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends:
+Installed-Size: 2100
+Maintainer:  bbcv/yyd
+Description: avencoder Xvnc AudioRecord soft
+

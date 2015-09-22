@@ -1,0 +1,5 @@
+
+1. Slow Startup.[OK]
+2. Support B Frames.
+3. Align Memory Allocation(cuMemAlloc->cuMemAllocPitch).
+4. Support Field Encoding.

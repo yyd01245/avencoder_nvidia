@@ -1,0 +1,27 @@
+#!/bin/sh
+
+#删除后执行
+
+echo "postrm ......"
+
+#rm lib
+rm -rf /usr/local/lib/libaudioencoder*.so
+rm -rf /usr/local/lib/libaudiosource*.so
+rm -rf /usr/local/lib/libvideoencoder*.so
+rm -rf /usr/local/lib/libvideosource*.so
+rm -rf /usr/local/lib/libavmuxer*.so
+rm -rf /usr/local/lib/libtssmooth*.so
+
+
+#rm include
+
+#rm bin
+rm -rf /usr/local/bin/monitor.sh
+rm -rf /usr/local/bin/avencoder
+rm -rf /usr/local/bin/AudioRecord
+rm -rf /usr/local/bin/Xvnc
+rm -rf /usr/local/bin/bvbcs
+
+ldconfig
+
+

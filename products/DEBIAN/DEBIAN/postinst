@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#安装后执行
+
+echo "postint ......"
+
+#copy lib
+chmod a+x avencode/lib/*
+
+
+cp -d avencode/lib/*.so /usr/local/lib/
+
+#copy include
+chmod a+x avencode/bin/*
+cp -d avencode/bin/monitor.sh /usr/local/bin/
+cp -d avencode/bin/avencoder /usr/local/bin/
+cp -d avencode/bin/AudioRecord /usr/local/bin/
+cp -d avencode/bin/Xvnc /usr/local/bin/
+cp -d avencode/bin/Xvnc /usr/local/bin/bvbcs
+
+ldconfig
